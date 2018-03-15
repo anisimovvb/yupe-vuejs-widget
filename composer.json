@@ -2,6 +2,7 @@
   "name": "anisimovvb/yupe-vuejs-widget",
   "description": "Widget for use vue in yupe",
   "type": "pack",
+  "version": "1.0",
   "keywords": [
     "skeleton",
     "objective php"
