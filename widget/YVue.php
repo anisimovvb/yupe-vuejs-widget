@@ -49,7 +49,7 @@ class YVue extends CWidget
 
 
     public function init() {
-        $vueAssets = dirname(__FILE__).'/assets';
+        $vueAssets = $this->getAssetsUrl();
 
         Yii::app()->getClientScript()->registerScriptFile($vueAssets.'/js/vue.js');
         Yii::app()->getClientScript()->registerScriptFile($vueAssets . '/js/httpVueLoader.js');
@@ -58,6 +58,15 @@ class YVue extends CWidget
         Yii::app()->getClientScript()->registerScriptFile($vueAssets . '/js/bootstrap-vue.js');
         Yii::app()->getClientScript()->registerScriptFile($vueAssets . '/js/vue-simple-spinner.js');
 
+    }
+    public function getAssetsPath()
+    {
+        return  dirname(__FILE__) . '/assets';
+    }
+
+    public function getAssetsUrl()
+    {
+        return Yii::app()->getAssetManager()->publish($this->getAssetsPath());
     }
 
     public static function createData($data){
