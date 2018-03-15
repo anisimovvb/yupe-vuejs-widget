@@ -1,0 +1,24 @@
+{
+  "name": "anisimovvb/yupe-vuejs-widget",
+  "description": "Widget for use vue in yupe",
+  "type": "pack",
+  "keywords": [
+    "skeleton",
+    "objective php"
+  ],
+  "homepage": "https://github.com/anisimovvb/yupe-vuejs-widget",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Viktor Anisimov",
+      "email": "anisimovvb@gmail.com",
+      "role": "lead"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "classmap": ["widget/"]
+  }
+}
