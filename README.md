@@ -7,7 +7,7 @@ Instalation
 Run
 
 ```
-php composer.phar require aki/yii2-vue "*"
+php composer.phar require anisimovvb/yupe-vuejs-widget "*"
 ```
 
 
