@@ -1,6 +1,6 @@
 yupe-vuejs-widget
 =====
-Instalation
+Install
 ------------
 
 
